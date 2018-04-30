@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+ #scoreArea {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  width: 300px;
+  height: 100px;
+  background-color: rgba(0,114,255,.7);
+  border-bottom-left-radius: 15px;
+  border: 2px solid rgba(0,0,0,.7);
+ }
+ 
+ .player, .score {
+   position: relative;
+   float: left;
+   left: 0px;
+   top: 0px;
+   margin: 10px 15px;
+   width: 180px;
+   height: 30px;
+   background-color: rgba(255,255,255,.2);
+   border-radius: 3px;
+ }
+ 
+ .score {
+   display: inline;
+   background-color: rgba(255,255,255,.5);
+   width: 60px;
+ }
+
+</style>
+</head>
+<body>
+    
+    <div id='scoreArea'>
+      <div class='home player'></div>
+      <div class='home score'></div>
+      <div class='away player'></div>
+      <div class='away score'></div>
+      
+    </div>
+
+</body>
+</html>
